@@ -21,6 +21,11 @@ h1 {
     font-size: 3em;
 }
 
+footer {
+  margin-top: 20px;  
+}
+
+
 .bit-container {
     width: 400px;
     display:grid; 
