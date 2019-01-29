@@ -14,7 +14,7 @@ main {
     margin: auto;
     background: white;
     text-align:center;
-    padding-top:10px;
+    padding:30px;
 }
 
 h1 {
@@ -59,4 +59,10 @@ h1 {
 
 .row-head {
     text-align: right;
+}
+
+#instructions {
+    background: #eee;
+    text-align: left;
+    padding: 10px;
 }

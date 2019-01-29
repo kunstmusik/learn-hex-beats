@@ -40,6 +40,34 @@
         </div>
 
       </section>
+      <section id="instructions">
+        <h2>Instructions</h2>
+        <p>
+          Each of the four boxes above (labeled 8,4,2,1) represents
+          one bit within a four-bit nibble (i.e., half a byte). The numbers
+          correspond to their value in base-2. Musically, you can think of these as four 
+          sixteenth notes within a single beat. Visually, this is simlar to hardware sequencers or drum machines 
+          that allow you to toggle whether a 
+          sixteenth note within a four-beat pattern will be on or off (see the 
+          <a href="http://808.pixll.de/">Roland 808 Drum Machine Pattern</a> site for a visual of 
+          what a drum machine might show). 
+        </p>
+        <p>
+          In the interface above, click one of the four boxes to toggle them to on or off. The binary, base10, and hex
+          representations are shown. Once you become familiar with the hex representation of the four-bit sixteenth note 
+          patterns, you can represent a four beat measure drum pattern using only four text characters.  
+        </p>
+        <p>
+          Hexadecimal beat notation is currently implemented in:
+        </p>
+        <ul>
+          <li>csound-live-code (online livecoding tool and csound library): <a href="https://live.csound.com">online tool</a> | 
+            <a href="https://github.com/kunstmusik/csound-live-code/blob/master/doc/hexadecimal_beats.md">docs</a>
+          </li>
+          <li>score (clojure library for music generation): <a href="https://github.com/kunstmusik/score/blob/master/doc/beats.md">docs</a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <script src="main.js"></script>
