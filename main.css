@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    width: 600px;
+    max-width: 600px;
     margin: auto;
     background: white;
     text-align:center;
